@@ -1,2 +1,1 @@
-steps:
-1. install Docker using docker.sh ,before running the docker.sh makeit executable by using command "chmod +x docker.sh" 
+The Repo contains exapmle codes related to ansible and terraform
