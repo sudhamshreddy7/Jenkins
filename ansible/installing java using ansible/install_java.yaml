@@ -1,0 +1,14 @@
+---
+- name: Install Java on cloud server
+  hosts: test1
+  become: yes
+  tasks:
+    - name: Update package index
+      apt:
+        name: '*'
+        state: latest
+
+    - name: Install Java
+      apt:
+        name: openjdk-21-jre-headless
+        state: present
